@@ -32,7 +32,7 @@ jobs:
     - name: Yarn Build
       run: yarn build
     
-    - name: Install surge
+    - name: Install surge 
       run: npm install -g surge
     
     - name: Deploy on Surge
