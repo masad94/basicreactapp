@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Add from './Math.js';
 
-function App() {
+function App({name}) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome</h1>
+     <p> Hello <strong>{name}</strong></p>
+    <p>Cities of Pakistan</p>
+    <ol>
+      <li>Karachi</li>
+      <li>Islamabad</li>
+      <li>Peshawar</li>
+      <li>Quetta</li>
+    </ol>
+    <p>List of Stationary Items</p>
+    <ul>
+      <li>Pencil</li>
+      <li>Stappler</li>
+      <li>Pages</li>
+      <li>Paper Clips</li>
+    </ul>
+    <Add a={5} b={6}/>
     </div>
   );
 }
