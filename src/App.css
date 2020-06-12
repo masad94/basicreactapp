@@ -52,3 +52,22 @@
    margin: 0px;
    text-align: center;
  }
+
+ .room{
+   height: 200px;
+ }
+
+ .blue{
+  background-color: blue;
+  color:white; 
+ }
+
+ .red{
+   background-color: red;
+   color: white;
+ }
+
+ .green{
+   background-color: green;
+   color: white;
+ }

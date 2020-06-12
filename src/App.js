@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Add from './Math.js';
+ import Add from './Math.js';
+import Room from './Room.js';
 
 function App({name}) {
   return (
@@ -22,6 +23,7 @@ function App({name}) {
       <li>Paper Clips</li>
     </ul>
     <Add a={5} b={6}/>
+    <Room/>
     </div>
   );
 }
